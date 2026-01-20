@@ -1,0 +1,44 @@
+# Docker
+**/data/
+**/logs/
+*.log
+
+# Environment
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Backups
+*.backup
+*.old
+*.tmp
+
+# Large files
+*.tar.gz
+*.zip
+*.7z
+
+# Local development
+local*.sh
+test*.local
+
+# Secrets
+*_key
+*_token
+*_secret
+*_password
